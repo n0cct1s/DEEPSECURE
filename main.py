@@ -1,11 +1,11 @@
 import torch
 import config as cfg
-from imagenet10_dataloader import get_data_loaders
-from adv_image import Adv_Gen
-from cat_adv_image import Cat_Adv_Gen
-from regular_generator import regular_generator
-from catted_generator import catted_generator
-from pre_model_extractor import model_extractor
+from data.imagenet10_dataloader import get_data_loaders
+from deepsecure.adv_image import Adv_Gen
+from deepsecure.cat_adv_image import Cat_Adv_Gen
+from deepsecure.regular_generator import regular_generator
+from deepsecure.catted_generator import catted_generator
+from module.pre_model_extractor import model_extractor
 
 if __name__ == '__main__':
 
